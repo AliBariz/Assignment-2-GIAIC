@@ -1,9 +1,12 @@
-import React from 'react'
+import Header from "./components/header";
+import About from "./components/about";
 
-const page = () => {
+export default function Home() {
   return (
-    <div>about page</div>
-  )
+    <div>
+    <h1>Hello World!👋</h1>
+    <Header/>
+    <About/>
+    </div>
+  );
 }
-
-export default page
